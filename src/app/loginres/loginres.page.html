@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <div class="fundo">
+    <div class="bola">
+      <img src="assets/together.jpeg">
+      <div class="bemvindo">
+        <h3>Responsável</h3>
+      </div>
+    </div>
+    <div class="campos">
+      <form>
+        <div class="inputs">
+          <ion-input label="Nome de Usuário:" label-placement="floating"></ion-input>
+        </div>
+        <br>
+        <div class="inputs">
+          <ion-input label="Senha:" label-placement="floating"></ion-input>
+        </div>
+        <br>
+        <br>
+        <ion-button shape="round">Entrar</ion-button>
+      </form>
+      <br>
+      <br>
+      <div class="registro">
+        <p>Não tem uma conta?<br>Crie aqui:</p>
+        <br>
+        <ion-button shape="round" [routerLink]="['/regisres']">Registrar</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
