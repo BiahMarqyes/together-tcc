@@ -25,7 +25,15 @@ const routes: Routes = [
   {
     path: 'regisres',
     loadChildren: () => import('./regisres/regisres.module').then( m => m.RegisresPageModule)
+  },  {
+    path: 'agendamento',
+    loadChildren: () => import('./agendamento/agendamento.module').then( m => m.AgendamentoPageModule)
+  },
+  {
+    path: 'duvidas',
+    loadChildren: () => import('./duvidas/duvidas.module').then( m => m.DuvidasPageModule)
   }
+
 ];
 @NgModule({
   imports: [
