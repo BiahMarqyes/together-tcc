@@ -1,6 +1,5 @@
 .imagem .botao{
   position:relative;
-
 }
 
 ion-title{
@@ -23,29 +22,13 @@ ion-title{
   padding-bottom: 12%;
 }
 
-.botãoA {
+.item{
   --background: #CAE6EB;
   --color: rgb(7, 66, 58);
-  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
-  --ripple-color: rgb(66, 124, 233);
-  --padding-top: 10px;
-  --padding-bottom: 10px;
-
-  --border-radius: 0;
-  --border-color: rgb(14, 158, 110);
-  --border-style: solid;
-  --border-width: 1px;
-}
-
-.botãoB {
-  --background: #CAE6EB;
-  --color: rgb(7, 66, 58);
-  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
-  --ripple-color: rgb(28, 66, 136);
   --padding-top: 10px;
   --padding-bottom: 10px;
   --border-radius: 0;
-  --border-color: rgb(14, 158, 110);
+  --border-color: rgb(7, 66, 58);
   --border-style: solid;
   --border-width: 1px;
 }
