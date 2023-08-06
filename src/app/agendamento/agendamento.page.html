@@ -1,9 +1,9 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-item>
-      <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
-      </ion-buttons>
+      <div class="voltar" button slot="start" [routerLink]="['/tabs/tab2']">
+        <ion-icon name="arrow-back-outline" style="color: rgb(255, 255, 255); font-size: 22px;"></ion-icon>
+      </div>
       <ion-avatar slot="start">
         <img src="https://ionicframework.com/docs/img/demos/avatar.svg" />
       </ion-avatar>
