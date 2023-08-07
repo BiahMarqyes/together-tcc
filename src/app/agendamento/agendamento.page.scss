@@ -1,4 +1,16 @@
+.cima{
+  --background: #000;
+  background-color: #000;
+  color: #fff;
+}
+
 .voltar {
   --background: #ffffff00;
   margin-right: 3%;
+}
+
+ion-button {
+  width: 45px;
+  height: 40px;
+  --border-radius: 100%;
 }
