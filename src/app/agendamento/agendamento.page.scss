@@ -2,6 +2,7 @@
   background-image: url('../../assets/chat.png');
   background-repeat: repeat;
   background-size: cover;
+  opacity: 0.9;
   height: 100%;
   width: 100%;
 }
@@ -23,15 +24,16 @@ ion-button {
   --border-radius: 100%;
 }
 
-.inputs{
-  width: 90%;
+.input{
+  width: 100%;
   border-radius: 50px;
   background-color: rgba(0, 0, 0, 0.267);
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 2%;
-  height: 12%;
+  min-height: 80%;
 }
+
 
