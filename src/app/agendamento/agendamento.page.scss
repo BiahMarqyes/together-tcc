@@ -33,7 +33,12 @@ ion-button {
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 2%;
-  min-height: 80%;
+  resize: none;
+  height: 30px;
+  overflow-y: auto;
+  padding-left: 8%;
+  padding-right: 8%;
 }
+
 
 
