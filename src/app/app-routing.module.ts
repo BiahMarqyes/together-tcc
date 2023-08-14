@@ -29,7 +29,11 @@ const routes: Routes = [
   {
     path: 'agendamento',
     loadChildren: () => import('./agendamento/agendamento.module').then( m => m.AgendamentoPageModule)
+  },  {
+    path: 'sobre',
+    loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
   }
+
 
 ];
 @NgModule({
