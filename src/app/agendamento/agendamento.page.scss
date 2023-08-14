@@ -9,8 +9,8 @@
 }
 
 .cima{
-  --background: #000;
-  background-color: #000;
+  --background: #BF807A;
+  background-color: #BF807A;
   color: #fff;
 }
 
@@ -23,13 +23,14 @@ ion-button {
   width: 45px;
   height: 40px;
   --border-radius: 100%;
-  --background: rgb(0, 0, 0);
+  --background: #d9e6e9;
+  --color: #7791db;
 }
 
 .input{
   width: 100%;
   border-radius: 50px;
-  background-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(255, 255, 255, 0.555);
   color: rgb(0, 0, 0);
   display: flex;
   margin-top: 2%;
@@ -45,10 +46,15 @@ ion-button {
 .eu{
   width: 70%;
   margin-left: 27%;
+
 }
 
 .outro{
   width: 70%;
 }
 
+ion-item{
+  --background: #9c5b55;
+  background-color: #9c5b55;
+}
 
