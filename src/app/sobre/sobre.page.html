@@ -1,22 +1,61 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-item class="cima">
-    <div button slot="start" [routerLink]="['/tabs/tab1']">
-      <ion-icon name="arrow-back-outline" style="color: rgb(255, 255, 255); font-size: 22px;"></ion-icon>
-    </div>
-    <h1 style="color: rgb(159, 216, 211);">Clínica ViVaBem</h1>
-  </ion-item>
+      <div button slot="start" [routerLink]="['/tabs/tab1']">
+        <ion-icon
+          name="arrow-back-outline"
+          style="color: rgb(255, 255, 255); font-size: 22px"
+        ></ion-icon>
+      </div>
+      <h1 style="color: rgb(159, 216, 211)">Clínica ViVaBem</h1>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div><img src="https://redevik.com.br/wp-content/uploads/2019/10/clinica-medica-rede-vik-tire-suas-duvidas-sobre-o-atendimento.jpg" alt=""></div>
 
-  <div>
-    <ion-item>aaaa</ion-item>
-    <ion-item>aaaa</ion-item>
-    <ion-item>aaaa</ion-item>
-    <ion-item>aaaa</ion-item>
-  </div>
+  <ion-card class="nome">
+    <ion-card-header>
+      <img src="https://redevik.com.br/wp-content/uploads/2019/10/clinica-medica-rede-vik-tire-suas-duvidas-sobre-o-atendimento.jpg" />
+      <h4>Clínica 1</h4>
+      <ion-button [routerLink]="['/agendamento']">CHAT</ion-button>
+    </ion-card-header>
+
+  </ion-card>
+
+  <ion-card>
+      <ion-item>Endereço:</ion-item>
+      <ion-item>Horários:</ion-item>
+  </ion-card>
+
+  <ion-card>
+    <h4>Sobre:</h4>
+    <ion-item>Odeio o modo como fala comigo
+      E como corta o cabelo
+      Odeio como dirigi o meu carro
+      E odeio seu desmazelo
+      Odeio suas enormes botas de combate
+      E como consegue ler minha mente
+      Eu odeio tanto isso em você
+      Que até me sinto doente
+      Odeio como está sempre certo
+      E odeio quando você mente
+      Odeio quando me faz rir muito
+      Mais quando me faz chorar...
+      Odeio quando não está por perto
+      E o fato de não me ligar
+      Mas eu odeio principalmente
+      Não conseguir te odiar
+      Nem um pouco
+      Nem mesmo por um segundo
+      Nem mesmo só por te odiar.</ion-item>
+  </ion-card>
+
+  <ion-card class="dono">
+    <ion-card-header>
+      <img src="https://festivalteen.com.br/wp-content/uploads/2020/09/FT_lucasrangel2-e1600805333834.jpg" />
+      <h4>DONO</h4>
+</ion-card-header>
+  </ion-card>
 
 </ion-content>
