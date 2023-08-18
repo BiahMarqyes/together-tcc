@@ -13,49 +13,78 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <div class="fundo">
+    <div class="fundo2">
+      <ion-card class="nome">
+        <ion-card-header>
+          <img
+            src="https://redevik.com.br/wp-content/uploads/2019/10/clinica-medica-rede-vik-tire-suas-duvidas-sobre-o-atendimento.jpg"
+          />
 
-  <ion-card class="nome">
-    <ion-card-header>
-      <img src="https://redevik.com.br/wp-content/uploads/2019/10/clinica-medica-rede-vik-tire-suas-duvidas-sobre-o-atendimento.jpg" />
-      <h4>Clínica 1</h4>
-      <ion-button [routerLink]="['/agendamento']">CHAT</ion-button>
-    </ion-card-header>
+          <ion-row>
+            <h4>Clínica 1</h4>
 
-  </ion-card>
+            <ion-col size="3" offset="3">
+              <ion-button [routerLink]="['/agendamento']"
+                ><ion-icon name="chatbox-ellipses-outline"></ion-icon
+              ></ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-card-header>
 
-  <ion-card>
+
+        <div>
+        <div>Endereço:</div>
+        <div>Horários:</div>
+
+        <div>
+          <h4>Sobre:</h4>
+        </div>
+        <div>
+          <p> Odeio o modo como fala comigo E como corta o cabelo Odeio como dirigi
+            o meu carro E odeio seu desmazelo Odeio suas enormes botas de combate
+            E como consegue ler minha mente Eu odeio tanto isso em você Que até me
+            sinto doente Odeio como está sempre certo E odeio quando você mente
+            Odeio quando me faz rir muito Mais quando me faz chorar... Odeio
+            quando não está por perto E o fato de não me ligar Mas eu odeio
+            principalmente Não conseguir te odiar Nem um pouco Nem mesmo por um
+            segundo Nem mesmo só por te odiar.</p>
+        </div>
+      </div>
+
+      <!--ver qual da mais certo-->
+
       <ion-item>Endereço:</ion-item>
       <ion-item>Horários:</ion-item>
-  </ion-card>
 
-  <ion-card>
-    <h4>Sobre:</h4>
-    <ion-item>Odeio o modo como fala comigo
-      E como corta o cabelo
-      Odeio como dirigi o meu carro
-      E odeio seu desmazelo
-      Odeio suas enormes botas de combate
-      E como consegue ler minha mente
-      Eu odeio tanto isso em você
-      Que até me sinto doente
-      Odeio como está sempre certo
-      E odeio quando você mente
-      Odeio quando me faz rir muito
-      Mais quando me faz chorar...
-      Odeio quando não está por perto
-      E o fato de não me ligar
-      Mas eu odeio principalmente
-      Não conseguir te odiar
-      Nem um pouco
-      Nem mesmo por um segundo
-      Nem mesmo só por te odiar.</ion-item>
-  </ion-card>
+      <ion-item>
+        <h4>Sobre:</h4>
+      </ion-item>
+      <ion-item>
+        Odeio o modo como fala comigo E como corta o cabelo Odeio como dirigi
+        o meu carro E odeio seu desmazelo Odeio suas enormes botas de combate
+        E como consegue ler minha mente Eu odeio tanto isso em você Que até me
+        sinto doente Odeio como está sempre certo E odeio quando você mente
+        Odeio quando me faz rir muito Mais quando me faz chorar... Odeio
+        quando não está por perto E o fato de não me ligar Mas eu odeio
+        principalmente Não conseguir te odiar Nem um pouco Nem mesmo por um
+        segundo Nem mesmo só por te odiar.
+      </ion-item>
 
-  <ion-card class="dono">
-    <ion-card-header>
-      <img src="https://festivalteen.com.br/wp-content/uploads/2020/09/FT_lucasrangel2-e1600805333834.jpg" />
-      <h4>DONO</h4>
-</ion-card-header>
-  </ion-card>
 
+      </ion-card>
+
+      <ion-card class="dono">
+        <ion-card-header>
+          <ion-avatar>
+            <img
+              src="https://festivalteen.com.br/wp-content/uploads/2020/09/FT_lucasrangel2-e1600805333834.jpg"
+            />
+          </ion-avatar>
+          <h4>Beatriz 0.2</h4>
+          <h5>aaaaaaaa</h5>
+        </ion-card-header>
+      </ion-card>
+    </div>
+  </div>
 </ion-content>
