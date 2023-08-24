@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      <h1 style="color: rgb(159, 216, 211)">Together</h1>
+      <h1 style="color: rgb(159, 216, 211);">Together</h1>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,6 +9,10 @@
 <ion-content [fullscreen]="true">
   <div class="fundo">
     <div class="fundo2">
+
+      <ion-toolbar style="--background: #013440; margin-bottom: 3px;">
+        <ion-searchbar style="--background: #eaeff1; --border-radius: 100px;"></ion-searchbar>
+      </ion-toolbar>
 
       <ion-item button [routerLink]="['/agendamento']" class="item">
         <ion-avatar slot="start">
