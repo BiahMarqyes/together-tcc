@@ -1,6 +1,6 @@
 .fundo{
   background-color: #013440;
-  width: 100%;
+  width: auto;
   height: 100%;
   padding-top: 2%;
 }
@@ -9,7 +9,7 @@
   background-color: #013440;
   width: auto;
   height: auto;
-  padding-bottom: 12%;
+
 }
 
 ion-title{
@@ -69,6 +69,24 @@ ion-avatar{
   text-align: center;
   font-family: 'Roboto Slab', serif;
 }
+
+.info{
+  display: flex;
+  --bottom: 55%;
+  margin-top: 155%;
+  margin-left: 3%;
+  width: 94%;
+  font-family: 'Roboto Slab', serif;
+}
+
+ion-fab-button{
+  --background: #eaeff1;
+  --color: #013440;
+  margin-top: 350px;
+  position: absolute;
+  margin-left: -90px;
+}
+
 
 
 
