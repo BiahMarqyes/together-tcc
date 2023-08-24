@@ -1,13 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-      <div class="voltar" button slot="start" [routerLink]="['/tabs/tab1']">
-        <ion-icon name="arrow-back-outline" style="color: rgb(65, 65, 65); font-size: 22px;"></ion-icon>
+    <ion-item class="cima">
+      <div button slot="start" [routerLink]="['/tabs/tab1']">
+        <ion-icon
+          name="arrow-back-outline"
+          style="color: rgb(255, 255, 255); font-size: 22px"
+        ></ion-icon>
       </div>
+      <h1 style="color: rgb(202, 211, 224)">Clínica ViVaBem</h1>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="imagem">
-    <img src="https://www.suafranquia.com/storage/views/sources/images/conteudo/principal/a8e9e2d8f60989a3ad77462f553f75ff.webp" />
+  <div class="fundo">
+    <div class="fundo2">
+      <div class="bola">
+        <ion-avatar>
+          <img
+            src="https://i.pinimg.com/564x/d1/97/17/d19717f5478efdbd6226ea9e39097b68.jpg"
+          />
+        </ion-avatar>
+
+        <div class="nome">
+          <h1>Clinica 1</h1>
+        </div>
+
+      </div>
+
+
+
+    </div>
   </div>
 </ion-content>
