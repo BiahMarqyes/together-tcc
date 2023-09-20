@@ -32,6 +32,14 @@ const routes: Routes = [
   },  {
     path: 'sobre',
     loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
+  },
+  {
+    path: 'clinica',
+    loadChildren: () => import('./clinica/clinica.module').then( m => m.ClinicaPageModule)
+  },
+  {
+    path: 'perfilcli',
+    loadChildren: () => import('./perfilcli/perfilcli.module').then( m => m.PerfilcliPageModule)
   }
 
 

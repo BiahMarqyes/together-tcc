@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-item class="cima">
-      <div button slot="start" [routerLink]="['/tabs/tab1']">
+      <div button slot="start" [routerLink]="['/clinica']">
         <ion-icon
           name="arrow-back-outline"
           style="color: rgb(255, 255, 255, 0.822); font-size: 22px"
@@ -29,10 +29,16 @@
       </div>
 
       <ion-fab>
-        <ion-fab-button [routerLink]="['/agendamento']">
-          <ion-icon name="chatbubbles"></ion-icon>
+        <ion-fab-button>
+          <ion-icon name="chatbubbles" id="present-alert"></ion-icon>
         </ion-fab-button>
       </ion-fab>
+      <ion-alert
+        trigger="present-alert"
+        header="Vizualização de Perfil"
+        message="Esta função funciona apenas para os usuários que vizitarem seu perfil"
+        [buttons]="alertButtons"
+      ></ion-alert>
 
         <ion-card style="margin-top: 135%;">
           <ion-card-header>
