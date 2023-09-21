@@ -40,6 +40,10 @@ const routes: Routes = [
   {
     path: 'perfilcli',
     loadChildren: () => import('./perfilcli/perfilcli.module').then( m => m.PerfilcliPageModule)
+  },
+  {
+    path: 'editarperfil',
+    loadChildren: () => import('./editarperfil/editarperfil.module').then( m => m.EditarperfilPageModule)
   }
 
 

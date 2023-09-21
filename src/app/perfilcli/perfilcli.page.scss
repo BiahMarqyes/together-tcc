@@ -16,9 +16,32 @@ ion-title{
 }
 
 .cima{
-  --background:#3B7D8C;
+  --background:#013440;
   background-color: #000;
   color: #fff;
+}
+
+.msg{
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(218, 202, 202);
+  font-family: 'Roboto Slab', serif;
+  background-color: #013440;
+  padding-top: 1%;
+}
+
+.bola{
+  top: -29%;
+  background-color: #6B95A3;
+  width: 200%;
+  height: 95%;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -50%;
 }
 
 .nome{
@@ -32,16 +55,6 @@ ion-title{
   transform: translate(-50%, -50%);
   color: rgb(218, 202, 202);
   font-family: 'Roboto Slab', serif;
-}
-
-.bola{
-  top: -35%;
-  background-color: #6B95A3;
-  width: 200%;
-  height: 95%;
-  border-radius: 50%;
-  position: absolute;
-  margin-left: -50%;
 }
 
 img{
@@ -61,7 +74,7 @@ ion-fab-button{
 
 ion-fab{
   position: absolute;
-  top: 57%;
+  top: 63%;
   left: 50%;
   margin: 0 0 0 -25px;
 }
@@ -74,6 +87,7 @@ ion-card{
   background-color: #eaeff1fa;
   color: #013440;
 }
+
 
 
 

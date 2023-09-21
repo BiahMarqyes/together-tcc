@@ -8,7 +8,7 @@
         ></ion-icon>
       </div>
       <ion-title>
-        <h1 style="color: rgb(255, 255, 255, 0.822)">Clínica Santa Helena</h1>
+        <h1 style="color: rgb(255, 255, 255, 0.822);">Vizualizar Perfil</h1>
       </ion-title>
     </ion-item>
   </ion-toolbar>
@@ -18,6 +18,10 @@
   <div class="fundo">
     <div class="fundo2">
       <div class="bola">
+
+        <div class="msg">
+          <h5>Seu perfil será exibido para outros usúarios</h5>
+        </div>
 
           <img
             src="https://i.pinimg.com/1200x/23/11/6a/23116a08edade06f70892cb5e83f0e8e.jpg"
@@ -35,12 +39,13 @@
       </ion-fab>
       <ion-alert
         trigger="present-alert"
+        class="alerta"
         header="Vizualização de Perfil"
         message="Esta função funciona apenas para os usuários que vizitarem seu perfil"
         [buttons]="alertButtons"
       ></ion-alert>
 
-        <ion-card style="margin-top: 135%;">
+        <ion-card style="margin-top: 142%;">
           <ion-card-header>
             <ion-card-title style="color: #013440;">Clínica Santa Helena</ion-card-title>
             <ion-card-subtitle>Conheça nossa equipe e nosso diferencial</ion-card-subtitle>
