@@ -21,21 +21,8 @@ ion-title{
   color: #fff;
 }
 
-.msg{
-  text-align: center;
-  width: 70%;
-  position: absolute;
-  top: 41%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(218, 202, 202);
-  font-family: 'Roboto Slab', serif;
-  background-color: #013440;
-  padding-top: 1%;
-}
-
 .bola{
-  top: -29%;
+  top: -25%;
   background-color: #6B95A3;
   width: 200%;
   height: 95%;
@@ -44,14 +31,34 @@ ion-title{
   margin-left: -50%;
 }
 
+.msg{
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(218, 202, 202);
+  font-family: 'Roboto Slab', serif;
+  background-color: #013440;
+  padding-top: 1%;
+}
+
+ion-button{
+  --background: #eaeff1f8;
+  --color: #013440;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
 .nome{
   text-align: center;
   width: 30%;
-  margin: 3%;
   margin-top: 5%;
   position: absolute;
   top: 88%;
-  left: 48%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(218, 202, 202);
   font-family: 'Roboto Slab', serif;
@@ -74,7 +81,7 @@ ion-fab-button{
 
 ion-fab{
   position: absolute;
-  top: 63%;
+  top: 69%;
   left: 50%;
   margin: 0 0 0 -25px;
 }
