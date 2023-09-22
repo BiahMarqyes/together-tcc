@@ -24,63 +24,35 @@
 
       <img src="https://i.pinimg.com/1200x/23/11/6a/23116a08edade06f70892cb5e83f0e8e.jpg"/>
 
-      <ion-button [routerLink]="['/editarperfil']">
+      <ion-button expand="full" [routerLink]="['/editarperfil']">
         <ion-icon name="pencil-sharp" style="margin-right: 10px;"></ion-icon>EDITAR
       </ion-button>
 
+      <br>
 
-        <div class="msg">
-          <p style="font-size: 16px; width: 90%; margin-left: 5%;">Esse é o seu perfil! Ele será exibido para outros usúarios</p>
+      <fieldset>
+        <legend>LOCALIZAÇÃO</legend>
+      </fieldset>
 
-        </div>
+      <div class="infos">
+            <ion-item style="--background: #eaeff1;">
+              <ion-input label="Rua:" placeholder="digite o nome da rua"></ion-input>
+            </ion-item>
 
+            <ion-item style="--background: #eaeff1;">
+              <ion-input label="Número:" type="number" placeholder="digite o número"></ion-input>
+            </ion-item>
 
+            <ion-item style="--background: #eaeff1;">
+              <ion-input label="Bairro:" placeholder="digite o nome do bairro"></ion-input>
+            </ion-item>
 
-        <div class="nome">
-          <p>Clique no botão abaixo para mandar uma mensagem</p>
-        </div>
+            <ion-item style="--background: #eaeff1;">
+              <ion-input label="Referência:" placeholder="digite uma referência"></ion-input>
+            </ion-item>
+      </div>
 
-
-      <ion-fab>
-        <ion-fab-button>
-          <ion-icon name="chatbubbles" id="present-alert"></ion-icon>
-        </ion-fab-button>
-      </ion-fab>
-
-        <ion-card style="margin-top: 162%;">
-          <ion-card-header>
-            <ion-card-title style="color: #013440;">Clínica Santa Helena</ion-card-title>
-            <ion-card-subtitle>Conheça nossa equipe e nosso diferencial</ion-card-subtitle>
-          </ion-card-header>
-
-          <ion-card-content>
-
-          </ion-card-content>
-        </ion-card>
-
-        <ion-card>
-          <ion-card-header>
-          <ion-card-title style="color: #013440;">
-            <h4>Horários:</h4>
-          </ion-card-title>
-        </ion-card-header>
-          <ion-card-content>
-            <p></p>
-            <p></p>
-          </ion-card-content>
-
-          <ion-card-header>
-            <ion-card-title style="color: #013440;">
-              <h4>Endereço:</h4>
-            </ion-card-title>
-          </ion-card-header>
-            <ion-card-content>
-              <p></p>
-              <p></p>
-            </ion-card-content>
-        </ion-card>
-
-        <br>
+      <br>
 
     </div>
   </div>

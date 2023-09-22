@@ -35,7 +35,7 @@ fieldset {
 fieldset legend {
    padding: 10px 10px;
    font-size: 13px;
-   font-weight: 600;
+   font-weight: 520;
    color: rgba(255, 255, 255, 0.822);
 }
 
@@ -57,5 +57,17 @@ ion-button{
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2%;
-  margin-top: 78%;
+  margin-top: 85%;
+}
+
+.infos{
+  background-color: #eaeff1;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
 }
