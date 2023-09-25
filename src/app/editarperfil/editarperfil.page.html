@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar style="--background: #6B95A3;">
     <ion-item class="cima">
-      <div button slot="start" [routerLink]="['/clinica']" style="margin: 0%;">
+      <div button slot="start" [routerLink]="['/perfilcli']" style="margin: 0%;">
         <ion-icon
           name="arrow-back-outline"
           style="color: rgb(255, 255, 255, 0.822); font-size: 22px"
@@ -56,7 +56,19 @@
 
       <div class="infos">
         <ion-item style="--background: #eaeff1;">
-          <ion-input label="Horário de Atendimento:" placeholder="digite seus horários de atendimento"></ion-input>
+          <ion-textarea label="Horário de Atendimento:" labelPlacement="stacked" placeholder="digite seus horários de atendimento"></ion-textarea>
+        </ion-item>
+      </div>
+
+      <br>
+
+      <fieldset>
+        <legend>SOBRE</legend>
+      </fieldset>
+
+      <div class="infos">
+        <ion-item style="--background: #eaeff1;">
+          <ion-textarea [autoGrow]="true" label="Sobre a clínica:" labelPlacement="floating" placeholder="escreva um texto para representar sua clínica"></ion-textarea>
         </ion-item>
       </div>
 
@@ -65,3 +77,5 @@
     </div>
   </div>
 </ion-content>
+
+
