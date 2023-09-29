@@ -34,17 +34,19 @@
         <legend>LOCALIZAÇÃO</legend>
       </fieldset>
 
+      <form [formGroup]="formInformacoes">
+
       <div class="infos">
             <ion-item style="--background: #eaeff1;">
-              <ion-input label="Rua:" placeholder="digite o nome da rua"></ion-input>
+              <ion-input formControlName="rua" name="rua" label="Rua:" placeholder="digite o nome da rua"></ion-input>
             </ion-item>
 
             <ion-item style="--background: #eaeff1;">
-              <ion-input label="Número:" type="number" placeholder="digite o número"></ion-input>
+              <ion-input formControlName="numero" name="numero" label="Número:" type="number" placeholder="digite o número"></ion-input>
             </ion-item>
 
             <ion-item style="--background: #eaeff1;">
-              <ion-input label="Bairro:" placeholder="digite o nome do bairro"></ion-input>
+              <ion-input formControlName="bairro" name="bairro" label="Bairro:" placeholder="digite o nome do bairro"></ion-input>
             </ion-item>
       </div>
 
@@ -56,7 +58,7 @@
 
       <div class="infos">
         <ion-item style="--background: #eaeff1;">
-          <ion-textarea label="Horário de Atendimento:" labelPlacement="stacked" placeholder="digite seus horários de atendimento"></ion-textarea>
+          <ion-textarea formControlName="horario" name="horario" label="Horário de Atendimento:" labelPlacement="stacked" placeholder="digite seus horários de atendimento"></ion-textarea>
         </ion-item>
       </div>
 
@@ -68,9 +70,13 @@
 
       <div class="infos">
         <ion-item style="--background: #eaeff1;">
-          <ion-textarea [autoGrow]="true" label="Sobre a clínica:" labelPlacement="floating" placeholder="escreva um texto para representar sua clínica"></ion-textarea>
+          <ion-textarea formControlName="sobre" name="sobre" [autoGrow]="true" label="Sobre a clínica:" labelPlacement="floating" placeholder="escreva um texto para representar sua clínica"></ion-textarea>
         </ion-item>
       </div>
+
+      <ion-button style="margin-top: 8%; --background: #013440; --color: #eaeff1f8;" shape="round" (click)="salvarInformacoes()">SALVAR</ion-button>
+
+    </form>
 
       <br>
 
