@@ -1,5 +1,5 @@
 .fundo{
-  background-image: url('../../assets/chat.png');
+  background: #94b1bb;
   background-repeat: repeat;
   background-size: cover;
   opacity: 0.9;
@@ -44,11 +44,13 @@ ion-textarea{
 .eu{
   width: 70%;
   margin-left: 27%;
-
+  height: auto;
 }
 
 .outro{
   width: 70%;
+  background: #6B95A3;
+  color: #000000;
 }
 
 ion-item{
