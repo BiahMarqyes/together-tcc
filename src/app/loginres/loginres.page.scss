@@ -54,12 +54,17 @@ img{
   border-radius: 40px;
   background-color: #ffffffd8;
   color: #575757;
+  display: flex;
+}
+
+.icone{
+  width: 10%;
+  align-items: center;
+  margin-left: 5%;
 }
 
 ion-input{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 65%;
 }
 
 ion-button {
@@ -74,4 +79,7 @@ ion-button {
 
 .registro{
   text-align: center;
+  padding-bottom: 5%;
 }
+
+
