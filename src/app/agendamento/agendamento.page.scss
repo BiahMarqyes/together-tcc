@@ -1,5 +1,5 @@
 .fundo{
-  background-image: url('../../assets/chat.png');
+  background: #94b1bb;
   background-repeat: repeat;
   background-size: cover;
   opacity: 0.9;
@@ -26,7 +26,7 @@ ion-button {
   --color: #7791db;
 }
 
-.input{
+ion-textarea{
   width: 100%;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.555);
@@ -35,21 +35,22 @@ ion-button {
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 2%;
-  resize: none;
-  height: 30px;
-  overflow-y: auto;
+  height: auto;
   padding-left: 8%;
   padding-right: 8%;
+  --padding-end: 2px;
 }
 
 .eu{
   width: 70%;
   margin-left: 27%;
-
+  height: auto;
 }
 
 .outro{
   width: 70%;
+  background: #6B95A3;
+  color: #000000;
 }
 
 ion-item{
