@@ -9,22 +9,22 @@
         <form [formGroup]="formRegistro">
           <div class="divisao">
             <div class="icone"><ion-icon name="person" style="margin-top: 65%; color: #013440;"></ion-icon></div>
-            <div class="inputt"><ion-input formControlName="nome" type="text" label="Nome de Usuário:" labelPlacement="floating" name="nome"></ion-input></div>
+            <div class="inputt"><ion-input formControlName="nome" [(ngModel)]="registerUser.nome" id="nome" type="text" label="Nome de Usuário:" labelPlacement="floating" name="nome"></ion-input></div>
           </div>
           <div class="divisao">
             <div class="icone"><ion-icon name="mail" style="margin-top: 65%; color: #013440;"></ion-icon></div>
-            <div class="inputt"><ion-input formControlName="email" type="email" label="Email:" labelPlacement="floating" name="email"></ion-input></div>
+            <div class="inputt"><ion-input formControlName="email" [(ngModel)]="registerUser.email" id="email" type="email" label="Email:" labelPlacement="floating" name="email"></ion-input></div>
           </div>
           <div class="divisao">
             <div class="icone"><ion-icon name="lock-closed" style="margin-top: 65%; color: #013440;"></ion-icon></div>
-            <div class="inputt"><ion-input formControlName="senha" type="password" label="Senha:" labelPlacement="floating" name="senha"></ion-input></div>
+            <div class="inputt"><ion-input formControlName="senha" [(ngModel)]="registerUser.senha" id="senha" type="password" label="Senha:" labelPlacement="floating" name="senha"></ion-input></div>
           </div>
           <div class="divisao">
             <div class="icone"><ion-icon name="lock-closed" style="margin-top: 65%; color: #013440;"></ion-icon></div>
             <div class="inputt"><ion-input formControlName="confirmarSenha" type="password" label="Confirmar Senha:" labelPlacement="floating" name="confirmarSenha"></ion-input></div>
           </div>
           <br>
-          <ion-button shape="round" (click)="salvarRegistro()">Registrar</ion-button>
+          <ion-button shape="round" (click)="register(registerUser)">Registrar</ion-button>
           <br>
           <br>
           <ion-button shape="round" [routerLink]="['/loginres']"><ion-icon name="arrow-back-circle-outline" style="margin-right: 8px;"></ion-icon>Voltar</ion-button>

@@ -1,3 +1,4 @@
+import { AuthService } from './../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -8,6 +9,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./regisres.page.scss'],
 })
 export class RegisresPage implements OnInit {
+
+  registerUser: any ={
+    nome:'',
+    email:'',
+    senha:''
+  }
 
   formRegistro: FormGroup;
 
@@ -33,7 +40,7 @@ export class RegisresPage implements OnInit {
     ],
   };
 
-  constructor(private formBuilder: FormBuilder, private route: Router) {
+  constructor(private formBuilder: FormBuilder, private route: Router, private AuthService:AuthService) {
     this.formRegistro = this.formBuilder.group({
       nome: ['', Validators.compose([Validators.required, Validators.minLength(3)])],
       email:['', Validators.compose([Validators.required, Validators.email])],
@@ -43,6 +50,10 @@ export class RegisresPage implements OnInit {
    }
 
   ngOnInit() {
+  }
+
+  register(registerUser:any){
+    this.AuthService.register(registerUser.email, registerUser.senha)
   }
 
   async salvarRegistro() {
